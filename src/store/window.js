@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { immer } from "immer";
+import { immer } from "zustand/middleware/immer";
 import { INITIAL_Z_INDEX, WINDOW_CONFIG } from "#constants";
 
 const useWindowStore = create(
@@ -29,3 +29,4 @@ const useWindowStore = create(
       }),
   })),
 );
+export default useWindowStore;
