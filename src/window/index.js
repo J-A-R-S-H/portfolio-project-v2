@@ -1,3 +1,3 @@
 import Safari from "./Safari.jsx";
-
-export { Safari };
+import Resume from "./Resume.jsx";
+export { Safari, Resume };
