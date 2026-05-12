@@ -141,15 +141,9 @@ const socials = [
     bg: "#4bcb63",
     link: "https://johnsustituido.ca/",
   },
+
   {
     id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
-    bg: "#ff866b",
-    link: "https://x.com/johnsustituido.ca",
-  },
-  {
-    id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
@@ -225,7 +219,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: " Gumdrop",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -233,35 +227,31 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "GuMDrop.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
-          description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
-          ],
+          description:
+            "GuMDrop is a movie database utilizing React, with a function to save favourited movies for users to create their own collection using context to store state globally. The TMDB API is integrated to make fetch requests and to dynamically generating content based on the different pages of the site",
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "johnsustituido.ca/gumdrop",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "placeholder.com", //replace with actual link once set up
+          href: "https://johnsustituido.ca/gumdrop",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
-          icon: "/images/image.png",
+          name: "gumdrop.png",
+          icon: "/images/gumdrop.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
+          imageUrl: "/images/gumdrop.png",
         },
         {
           id: 5,
@@ -278,7 +268,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "Ecommerce Patty Meltdown -",
+      name: "Patty Meltd...",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -286,7 +276,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "Patty Meltdown Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -311,7 +301,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
+          imageUrl: "/images/patty-meltdown.png",
         },
         {
           id: 5,
@@ -328,7 +318,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Food Websi...",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
